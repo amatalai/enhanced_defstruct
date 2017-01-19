@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/amatalai/enhanced_defstruct.svg?branch=master)](https://travis-ci.org/amatalai/enhanced_defstruct)
 # EnhancedDefstruct
 
 EnhancedDefstruct is package that helps to create structs without invoking defmodule macro.
