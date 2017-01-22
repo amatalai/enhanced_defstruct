@@ -13,7 +13,7 @@ defmodule EnhancedDefstruct.Mixfile do
       elixir: "~> 1.3",
       package: package(),
       test_coverage: [tool: ExCoveralls],
-      version: "0.1.0"
+      version: "0.1.1"
    ]
   end
 

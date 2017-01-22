@@ -27,6 +27,7 @@ EnhancedDefstruct is package that helps to create structs without invoking defmo
   defstruct MyProject.Keyword, field: 1, option: 2
   defstruct MyProject.AtomList, [:something]
   defstruct MyProject.Blank, []
+  defstruct :atom, field: true
 
   iex(1)> %MyProject.Keyword{}
   %MyProject.Keyword{field: 1, option: 2}
@@ -36,6 +37,9 @@ EnhancedDefstruct is package that helps to create structs without invoking defmo
 
   iex(3)> %MyProject.Blank{}
   %MyProject.Blank{}
+
+  iex(4)> struct(:atom)
+  %:atom{field: true}
 ```
 
 ## Warning

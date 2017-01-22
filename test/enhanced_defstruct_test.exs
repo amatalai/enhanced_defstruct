@@ -15,7 +15,18 @@ defmodule EnhancedDefstructTest do
     end
 
     test "invalid fields format" do
-      assert_raise(ArgumentError, fn -> defstruct BadFieldsFormat, "string" end)
+      assert_raise(
+        ArgumentError,
+        fn -> defstruct BadFieldsFormat, "string" end
+      )
+    end
+
+    test "invalid struct name" do
+      assert_raise(
+        EnhancedDefstruct.Error,
+        "invalid struct name, should be atom",
+        fn -> defstruct "String", bad: :very end
+      )
     end
   end
 end
