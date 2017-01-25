@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/amatalai/enhanced_defstruct.svg?branch=master)](https://travis-ci.org/amatalai/enhanced_defstruct)
+[![Hex.pm](https://img.shields.io/hexpm/v/enhanced_defstruct.svg?style=flat)](https://hex.pm/packages/enhanced_defstruct)
+[![Hex.pm](https://img.shields.io/hexpm/dt/enhanced_defstruct.svg?style=flat)](https://hex.pm/packages/enhanced_defstruct)
 # EnhancedDefstruct
 
 EnhancedDefstruct is package that helps to create structs without invoking defmodule macro.
