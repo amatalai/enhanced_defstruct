@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/amatalai/enhanced_defstruct.svg?branch=master)](https://travis-ci.org/amatalai/enhanced_defstruct)
+[![Coverage Status](https://coveralls.io/repos/github/amatalai/enhanced_defstruct/badge.svg?branch=master)](https://coveralls.io/github/amatalai/enhanced_defstruct?branch=master)
 [![Code Climate](https://img.shields.io/codeclimate/issues/github/amatalai/enhanced_defstruct.svg)](https://hex.pm/packages/enhanced_defstruct)
 [![Hex.pm](https://img.shields.io/hexpm/v/enhanced_defstruct.svg?style=flat&colorB=6B4D90)](https://hex.pm/packages/enhanced_defstruct)
 [![Hex.pm](https://img.shields.io/hexpm/dt/enhanced_defstruct.svg?style=flat)](https://hex.pm/packages/enhanced_defstruct)
