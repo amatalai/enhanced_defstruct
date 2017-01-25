@@ -12,7 +12,7 @@ EnhancedDefstruct is package that helps to create structs without invoking defmo
 ```elixir
   def deps do
     [
-      {:enhanced_defstruct, "~> 0.1.0"}
+      {:enhanced_defstruct, "~> 0.1.1"}
     ]
   end
 ```
