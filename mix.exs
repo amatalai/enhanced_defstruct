@@ -1,6 +1,8 @@
 defmodule EnhancedDefstruct.Mixfile do
   use Mix.Project
 
+  @version "0.1.1"
+
   def project do
     [
       app: :enhanced_defstruct,
@@ -12,8 +14,13 @@ defmodule EnhancedDefstruct.Mixfile do
       ],
       elixir: "~> 1.3",
       package: package(),
+      preferred_cli_env: [
+        coveralls: :test,
+        "coveralls.detail": :test,
+        "coveralls.travis": :test
+      ],
       test_coverage: [tool: ExCoveralls],
-      version: "0.1.1"
+      version: @version
    ]
   end
 
