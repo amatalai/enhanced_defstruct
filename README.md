@@ -52,7 +52,7 @@ The use of this package may be regarded as `magic`, `hack`, `bad practice` etc. 
 
 ## License
 
-  Copyright 2017 Tobiasz @amatalai Małecki <tobiasz.malecki@appunite.com>
+  Copyright 2017-2018 Tobiasz @amatalai Małecki <tobiasz.malecki@appunite.com>
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -65,8 +65,3 @@ The use of this package may be regarded as `magic`, `hack`, `bad practice` etc. 
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/amatalai/enhanced_defstruct/badge.svg?style=beer-square)](https://beerpay.io/amatalai/enhanced_defstruct)  [![Beerpay](https://beerpay.io/amatalai/enhanced_defstruct/make-wish.svg?style=flat-square)](https://beerpay.io/amatalai/enhanced_defstruct?focus=wish)
